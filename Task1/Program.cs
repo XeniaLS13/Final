@@ -41,7 +41,7 @@ void PrintTask(string[] array)
     Console.WriteLine("Исходный массив:");
     PrintArray(array);
     string[] shortArray = GetShortWordsArray(array);
-    Console.WriteLine($"Результат (слов меньше либо равно {maxWordLength} символов)");
+    Console.WriteLine($"Результат (в слове меньше либо равно {maxWordLength} символов)");
     PrintArray(shortArray);
     Console.WriteLine();
 }
